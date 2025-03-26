@@ -1,0 +1,19 @@
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .open-modal-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .open-modal-btn:hover {
+    background: #1e4ab5;
+  }
+  

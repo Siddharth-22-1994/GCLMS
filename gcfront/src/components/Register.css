@@ -1,0 +1,116 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Container (Two Columns) */
+.modal-container {
+  display: flex;
+  width: 60%;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Side - Image */
+.modal-image {
+  width: 45%;
+  background: linear-gradient(135deg, #6b1dcf, #ff7eb3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.modal-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Right Side - Form */
+.modal-content {
+  width: 55%;
+  padding: 30px;
+  position: relative;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Form Styling */
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Gender Section */
+.gender-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+.next-step {
+  width: 100%;
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.next-step:hover {
+  background: #1e4ab5;
+}
+
+/* Sign-in Link */
+.signin-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signin-link a {
+  color: #2563eb;
+  text-decoration: none;
+}
