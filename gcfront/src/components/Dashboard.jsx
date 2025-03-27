@@ -41,6 +41,8 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import TopNav from "./TopNav";
+import WelcomeBanner from "./WelcomeBanner";
+import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
@@ -49,6 +51,7 @@ const Dashboard = () => {
       <div style={{ flex: 1, marginLeft: "250px" }}>
         <TopNav />
         <div style={{ marginTop: "70px", padding: "20px" }}>
+          <WelcomeBanner />
           <h2>Dashboard Content</h2>
         </div>
       </div>

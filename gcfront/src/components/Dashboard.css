@@ -83,6 +83,7 @@
   z-index: 100;
 }
 
+
 .left {
   display: flex;
   align-items: center;
@@ -171,6 +172,97 @@
   font-weight: bold;
 }
 /* ---------------------------------------------------- */
+
+/* ------------------ Welcomebanner.css */
+.welcome-banner {
+  background: linear-gradient(to right, #6a98f0, #4961dc);
+  color: white;
+  border-radius: 15px;
+  padding: 14px;
+  position:relative;
+  right: 250px;
+  width: 135%;
+  border: 2px solid red;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.date {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.welcome-message {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.subtext {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  gap: 15px;
+}
+
+.stat-box {
+  background: white;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stat-title {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.stat-value {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stat-icon {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.green {
+  color: green;
+}
+
+.gold {
+  color: gold;
+}
+
+.orange {
+  color: orange;
+}
+
+.banner-image img {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+/* ----------------------------------------------- */
 
 .stats-card {
   background: white;
